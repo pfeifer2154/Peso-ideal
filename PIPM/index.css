@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Orbitron:wght@500&family=Rajdhani:wght@500&display=swap');
+#back{
+    background: white;
+    border-radius: 8px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    background:linear-gradient(to right,#00582c, #00a31b);
+}
+#botao{
+    font-size: 1rem;
+    padding: 0.6rem;
+    border-radius: 15px;
+    cursor: pointer;
+    background: linear-gradient(to right,#00d170, #006e2a);
+    transition: all 0.3s ease;
+}
+#botao:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right,#074e1c,#01da0c);
+    transition: all 0.3s ease;
+}
+input{
+    margin-bottom:0.8rem ;
+    border-radius: 7px;
+    padding: 5px;
+}
+label{
+    font-size: 18px;
+    font-family:"Goldman", sans-serif;
+}
+#res{
+    font-size: 18px;
+    font-family:"Goldman", sans-serif;
+}
